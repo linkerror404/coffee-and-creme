@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee and Crème</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: #1a1208;
+    color: #f5e6c8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  .logo {
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    font-weight: normal;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #f5e6c8;
+    margin-bottom: 0.5rem;
+  }
+  .logo .accent { color: #c9a227; }
+  .tagline {
+    font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #a89060;
+    margin-bottom: 3rem;
+  }
+  .gold-line {
+    width: 120px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #c9a227, transparent);
+    margin: 0 auto 3rem;
+  }
+  .links { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; }
+  .links a {
+    color: #f5e6c8;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    border: 1px solid #c9a227;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+  }
+  .links a:hover {
+    background: #c9a227;
+    color: #1a1208;
+  }
+  footer {
+    position: absolute;
+    bottom: 2rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #6b5a3e;
+  }
+</style>
+</head>
+<body>
+  <div class="logo">Coffee <span class="accent">&amp;</span> Crème</div>
+  <div class="tagline">Productions</div>
+  <div class="gold-line"></div>
+  <div class="links">
+    <a href="https://www.youtube.com/@coffeeandcream" target="_blank">YouTube</a>
+    <a href="https://www.tiktok.com/@coffeeandcreamproduction" target="_blank">TikTok</a>
+    <a href="https://www.instagram.com/coffeeandcreamproduction" target="_blank">Instagram</a>
+    <a href="https://www.facebook.com/coffeeandcreamproduction" target="_blank">Facebook</a>
+  </div>
+  <footer>Coffee and Crème Productions</footer>
+</body>
+</html>
